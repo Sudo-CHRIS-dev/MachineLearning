@@ -58,7 +58,8 @@ This graph shows that when the customer is married, they tend to have far less m
   - LogisticRegression
 
 *  The metrics for your best model (Logistic regression with PCA)
-  ![METRICS](https://github.com/Sudo-CHRIS-dev/MachineLearning/assets/122632203/4ab5de63-944b-488c-99da-dffb1baae8f0)
+
+![METRICS](https://github.com/Sudo-CHRIS-dev/MachineLearning/assets/122632203/4ab5de63-944b-488c-99da-dffb1baae8f0)
 
 * How well will the model perform
 -The model will perform well as it has an accuracy of 85%, I believe this will sufficient in predicting whether clients will have insurance claims. The model was also very quick to predict the values with the help of PCA
