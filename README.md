@@ -57,23 +57,17 @@ This graph shows that when the customer is married, they tend to have far less m
   - DecisionTreeClassifier 
   - LogisticRegression
 
-* Use GridSearchCV to Hypertune the Three models
+*  The metrics for your best model (Logistic regression with PCA)
+  ![METRICS](https://github.com/Sudo-CHRIS-dev/MachineLearning/assets/122632203/4ab5de63-944b-488c-99da-dffb1baae8f0)
 
-* Best tuned model results using Accuracy Metrics:
-      Decision Tree Classifier - 0.94% with hypertuning
-      Randon Forest Classifier - 0.94% without hypertuning
-      Bagging Classifier - 0.937% with hypertuning
+* How well will the model perform
+-The model will perform well as it has an accuracy of 85%, I believe this will sufficient in predicting whether clients will have insurance claims. The model was also very quick to predict the values with the help of PCA
 
-* Apply with and without PCA to determine the best model.
-  Random Forest and Baggings provided the best results accuracy metrics
+* Recommendations
+  - There were a few false negatives so I would advise to keep an eye on those.
+  - I would take into account the features that lead to clients having a high chance of having claims in order to avoid making a loss.
+  - The stakeholders can also use the correlating features in order to determine the price that a client must pay for their premuim.
+  - The models predictions serve a great porpose in giving a premium pricing guidline as well as mitagating risk of loss.
 
 
-* Final production model to be used and recommendations:
 
-  - The PCA models poduced a higher accuracy result as compared to the hypertune models.
-
-  -Two of the 3 PCA models produced high accuracy and were almost identical in results. These PCA models were the Random Forest and Baggings Classifier Models.
-
-  -However even though the Baggings Classifier produced a higher speed vs the Random Forest, the Random Forest Model produced a precsion of 100% as compared to 0.99% of the Baggings Classifier.
-
-  -Since this model will be predicting the possiblities of having a stroke we require the best results therefore I would recommend the PCA Random Forest Classifier Model.
