@@ -45,10 +45,12 @@
   - Use multivariate visualization plotting each feature vs the target
 
 ![Visual1](https://github.com/Sudo-CHRIS-dev/MachineLearning/assets/122632203/498e43dc-32df-4a0c-8344-12b2996c9d36)
+
 This graph indicates the correlation between accidents and annual milleage
 We can see from this graph that for our data the more accidents the person as had the lower their milleage
 
 ![Visual2](https://github.com/Sudo-CHRIS-dev/MachineLearning/assets/122632203/f0d6e46e-2fca-40c0-a305-8537e7c177e5)
+
 This graph shows that when the customer is married, they tend to have far less mileage, I chose this visual as I beleive it is a key roleplayer in the outcome. I beleive it correlates to the outcome as married people have family responsibilities and will drive safe due to the fact that they have another persons life to consider when driving.
 
 
