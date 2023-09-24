@@ -6,6 +6,7 @@
 - Predict the possibilties of insurance clients submitting a claim.
 ### Data: The data comtains the below information about patients
 - Source: www.kaggle.com
+  
  0   ID                   
  1   AGE                  
  2   GENDER               
